@@ -57,7 +57,43 @@ En resumen: una variable es un nombre que le das a un valor para poder guardarlo
 
 */
 
-echo "<h1>01 - Variables</h1>";
+echo "<h1>03 - Variables</h1>";
+
+echo "<h2>Que son</h2>";
+echo "<p>Una variable es un espacio con nombre donde guardamos un dato para usarlo despues. Ese dato puede ser un nombre, una edad, un precio, una cantidad, un resultado o cualquier informacion que el programa necesite recordar.</p>";
+echo "<p>En PHP todas las variables empiezan con el simbolo \$, por ejemplo \$nombre, \$edad o \$total.</p>";
+
+echo "<h2>Por que se utilizan</h2>";
+echo "<p>Se utilizan porque los programas trabajan con datos que pueden cambiar. Si guardas un precio en una variable, luego puedes usarlo para calcular un total. Si guardas un nombre, puedes mostrarlo varias veces sin escribirlo de nuevo.</p>";
+echo "<p>Las variables tambien hacen que el codigo sea mas facil de leer. No es lo mismo ver 2600000 * 20 que ver \$valorUnitario * \$unidades.</p>";
+
+echo "<h2>Como se crean</h2>";
+echo "<p>Para crear una variable escribes el nombre, el signo igual y el valor que quieres guardar. El signo igual no significa comparar; significa asignar o guardar.</p>";
+echo "<pre>\$nombre = \"Marlon\";\n\$edad = 33;\n\$precio = 10000;</pre>";
+
+echo "<h2>Como se usan</h2>";
+echo "<p>Despues de crear una variable, puedes imprimirla, calcular con ella o combinarla con otras variables.</p>";
+echo "<pre>\$precio = 10000;\n\$cantidad = 3;\n\$total = \$precio * \$cantidad;\n\necho \$total;</pre>";
+
+echo "<h2>Reglas importantes</h2>";
+echo "<ul>";
+echo "<li>Siempre empiezan con \$.</li>";
+echo "<li>No deben tener espacios.</li>";
+echo "<li>Conviene usar nombres claros como \$precioProducto en vez de \$x.</li>";
+echo "<li>Distinguen mayusculas y minusculas: \$nombre y \$Nombre no son lo mismo.</li>";
+echo "<li>El valor puede cambiar durante el programa.</li>";
+echo "</ul>";
+
+echo "<h2>Errores comunes</h2>";
+echo "<ul>";
+echo "<li>Olvidar el simbolo \$.</li>";
+echo "<li>Usar una variable antes de crearla.</li>";
+echo "<li>Escribir el nombre diferente en otra parte del codigo.</li>";
+echo "<li>Confundir asignacion (=) con comparacion (==).</li>";
+echo "</ul>";
+
+echo "<h2>Ejemplo</h2>";
+echo "<pre>\$nombre = \"Marlon\";\necho \$nombre;</pre>";
 
 // Ejercicio 1
 // Crea variables para tu nombre, edad y ciudad.
