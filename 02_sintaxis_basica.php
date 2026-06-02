@@ -39,3 +39,37 @@ echo "<li>Agrega un comentario de varias lineas.</li>";
 echo "<li>Prueba quitar un punto y coma, observa el error y luego corrigelo.</li>";
 echo "</ol>";
 
+echo "<h2>Solución de ejercicios</h2>";
+
+echo "<h3>Ejercicio 1</h3>";
+echo "<ul>";
+echo "<li>php</li>";
+echo "<li>html</li>";
+echo "<li>css</li>";
+echo "</ul>";
+
+echo "<h3>Ejercicio 2</h3>";
+
+//muestra un mensaje de bienvenida
+
+echo "Un saludo para todos bienvenidos a pulsodigitalweb";
+echo "<br>";
+
+echo "<h3>Ejercicio 3</h3>";
+
+/*
+    Importante no se debe utilizar:
+        - Mayusculas
+        - Números
+        - Simbolos
+*/
+
+echo "estoy aprendiendo a usar php desde cero";
+echo "<br>";
+
+echo "<h3>Ejercicio 4</h3>";
+
+//Probando el uso el ;
+
+// echo "La casa es roja"
+echo "La casa es roja";

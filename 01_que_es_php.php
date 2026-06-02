@@ -38,6 +38,6 @@ echo "<h2>Solución de ejercicios</h2>";
 
 echo "Estoy aprendiendo el lenguaje de programación PHP";
 echo "<br>";
-echo "Mi nombres es: Marlon";
+echo "Mi nombre es: Marlon";
 echo "<br>";
 echo "Mi primera página en PHP";
