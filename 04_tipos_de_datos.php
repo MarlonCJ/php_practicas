@@ -37,3 +37,18 @@ echo "<li>Crea una variable booleana.</li>";
 echo "<li>Muestra cada variable con echo o var_dump.</li>";
 echo "</ol>";
 
+echo "<h2>Solución Ejercicios</h2>";
+
+$nombre = "carlitos";
+$numeroEntero = 40;
+$numeroDecimal = 3.1416;
+$soltero = true;
+
+var_dump($nombre);
+echo "<br>";
+var_dump($numeroEntero);
+echo "<br>";
+var_dump($numeroDecimal);
+echo "<br>";
+var_dump($soltero);
+echo "<br>";
