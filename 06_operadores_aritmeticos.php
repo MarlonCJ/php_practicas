@@ -41,3 +41,33 @@ echo "<li>Usa potencia con **.</li>";
 echo "<li>Crea precio, cantidad, descuento y calcula el total final.</li>";
 echo "</ol>";
 
+echo "<h2>Solución Ejercicios</h2>";
+
+$numero1 = 200;
+$numero2 = 400;
+
+$suma = $numero1 + $numero2;
+echo "Suma: $suma <br>";
+
+$resta = $numero1 - $numero2;
+echo "Resta: $resta <br>";
+
+$multiplicacion = $numero1 * $numero2;
+echo "Multiplicación: $multiplicacion <br>";
+
+$division = $numero1 / $numero2;
+echo "División: $division <br>";
+
+echo "Modulo:" . $numero1 % 2 . "<br>";
+
+echo "Potencia: " . 2 ** 4 . "<br>";
+
+$precio = 500;
+$cantidad = 2;
+$subtotal = $precio * $cantidad;
+$descuento = $subtotal * 0.20;
+$totalFinal = $subtotal - $descuento;
+
+echo "Subtotal: $subtotal <br>";
+echo "Descuento: $descuento <br>";
+echo "Total a Pagar: $totalFinal <br>";
