@@ -32,3 +32,20 @@ echo "<li>Crea una variable precio y calcula el total con IVA.</li>";
 echo "<li>Crea una constante MONEDA y muestra el total con la moneda.</li>";
 echo "</ol>";
 
+echo "<h2>Solución de Ejercicios</h2>";
+
+define("NOMBRE_APP","pulsodigitalweb");
+echo NOMBRE_APP . "<br>";
+
+define("IVA", 0.19);
+echo IVA . "<br>";
+
+$precio = 300000;
+$totalIVA = $precio * IVA ;
+$totalPago = $precio + $totalIVA;
+echo $totalIVA . "<br>";
+echo "Total a pagar: $totalPago <br>";  
+
+define("MONEDA", "COP");
+
+echo MONEDA . " $totalPago <br>";
